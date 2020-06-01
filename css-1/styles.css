@@ -1,0 +1,47 @@
+h1 {
+    color: red;
+}
+
+p, li {
+  color: green;
+}
+
+li {
+  list-style-type: square;
+}
+
+li.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+
+p span {
+  color: red;
+}
+
+a:link {
+  color: brown;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: overline;
+}
+
+body h1 + p .special {
+  color: yellow;
+  background-color: #008e90;
+  padding: 5px;
+}

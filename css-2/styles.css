@@ -1,0 +1,78 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   background-color: black;
+   background-image: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+   background-repeat: repeat-y;
+   background-attachment: fixed;
+}
+
+/* Set the background-color to blue
+for screens wider than 50em */
+@media (min-width: 50em) {
+   body {
+      background-color: blue;
+   }
+}
+
+p {
+   filter: brightness(200%);
+   color: red;
+   border: 0.1em solid grey;
+   border-radius: 0.3em;
+   padding: 0.65em;
+   margin: 2em auto;
+   width: auto;
+   text-align: center;
+}
+
+p::after {
+   content: '💩';
+}
+
+/* The first paragraph has the color lime */
+p:first-child {
+   color: lime;
+}
+
+p:last-child {
+   background-color: rebeccapurple;
+   font-size: 3em;
+}
+
+.intro {
+   background-color: #5cc9f5;
+}
+
+#two {
+   font-weight: bold;
+}
+
+.outer {
+   border: 5px solid black;
+   border-radius: 5px;
+}
+
+.box {
+   padding: 10px;
+   width: calc(50% + 30px);
+   background-color: rebeccapurple;
+   color: white;
+}
+
+.cube {
+   margin: 10px;
+   width: 100px;
+   height: 100px;
+   background-color: lime;
+   transform: rotate(0.05turn)
+}
+
+h1 {
+   margin: 100px;
+
+   transform: rotateX(60deg);
+}

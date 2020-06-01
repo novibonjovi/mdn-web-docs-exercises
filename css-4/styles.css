@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium:400,700|Righteous&display=swap');
+
+
+body {
+ background-color: #263a5d;
+ color: #b0f566;
+ font-family: Oxanium, sans-serif;
+ padding: 1em;
+ margin: 0;
+}
+
+h1 {
+ color: #007f44;
+ font-size: 4em;
+ font-family: Righteous, 'Times New Roman', Times, serif;
+ border-bottom: 10px ridge #5cc9f5;
+ border-right: 50px ridge #5cc9f5;
+ border-radius: 0 0 100px 10px;
+ width: 160px;
+}
+
+h2 {
+   font-family: Oxanium;
+ font-style: italic;
+ font-size: 1.5em;
+ font-weight: 700;
+}
+
+.job-title {
+ color: #999999;
+ font-weight: bold;
+}
+
+a:link,
+a:visited {
+ color: #28303a;
+}
+
+a:hover {
+   color: green;
+ text-decoration: none;
+}
+
+ul {
+   color: #263a5d;
+   background-color: #5cc9f5;
+   border: 5px solid white;
+   padding: 30px;
+}
